@@ -1,0 +1,447 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.nav-bar{
+    width: 100%;
+   display: flex;
+    background-color: #59316B;
+    align-items: center;
+    justify-content: space-between;
+}
+.iner-div-1{
+    width: 20%;
+
+  
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 80px;
+    height: 49px;
+    padding: 20px;
+}
+.donate-now-style{
+    background-color: #FFBF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 34px;
+    
+    border-radius: 6px;
+    font-weight: bold;
+    
+}.nav-bar ul{
+
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+}
+.nav-bar a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+.iner-div-2{
+  gap: 30PX;
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+
+}
+
+
+.iner-div-2 button{
+    width: 189px;
+    height: 38px;
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #fff;
+    border-radius: 3px;
+}
+.iner-div-2 select{
+    background-color: transparent;
+    color: #f0e5e5;
+     border: none;
+} 
+.first-div{
+    background-color: #59316B;
+    width: 100%;
+    height: 540.78px;
+    display: flex;
+    justify-content: center;
+}
+.iner-div-2 option{
+    background-color: #f0e5e5;
+    color: black;
+}
+.first-iner-div{
+    width: 1140px;
+  padding-top: 60px;
+}
+.Browse{
+    width: 1140px;
+    height: 113.59px;
+    color: #fff;
+   
+    display: flex;
+    justify-content: center;
+}
+.Explore{
+    width: 1140px;
+    height: 113.59px;
+    color: #fff;
+   
+    display: flex;
+    justify-content: center;
+}
+.defined{
+    width: 891.13px;
+    height: 65.59px;
+    color: #fff;
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    color: #fff;
+}
+.Browse h1{
+    font-size: 88px;
+    font-weight: lighter;
+}
+.Explore h1{
+    font-size: 88px;
+    font-weight: lighter;
+}
+.defined h5{
+    
+    font-size: 20px;
+    
+
+}
+.first-iner-div button{
+    width: 189px;
+    height: 38px;
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #fff;
+    border-radius: 3px;
+     margin-left: 450px;
+     margin-top: 70px;
+}
+.second-div{
+    width: 1349px;
+    height: 2562.31px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.second-iner-div{
+    width: 1140px;
+    /* height: 1831.13px; */
+   
+}
+   
+.first-image-container{
+
+    width: 1140px;
+    height: 356.63px;
+  
+    display: flex;
+    gap: 60px;
+}
+.image-one{
+    width:432.5px ;
+    height: 324.63px;
+   
+    background-image: url(https://www.torproject.org/static/images/home/svg/block-trackers.svg?h=70991bcb);
+    background-size: cover;
+}
+.sentance p{
+    line-height: 40px;
+    font-size: 20px;
+   
+    
+
+}
+.sentance h4{
+    color: #59316B;
+}
+.second-image-container{
+
+    width: 1110px;
+    height: 356.63px;
+    
+    display: flex;
+    gap: 60px; 
+}
+.sentance-two p{
+    line-height: 40px;
+    font-size: 20px;
+   
+}
+.sentance-two h4{
+    color: #59316B;
+}
+.second-image{
+    width: 432.5px;
+    height: 324.63px;
+    background-image: url(https://www.torproject.org/static/images/home/svg/surveillance.svg?h=688a829c);
+    background-size: cover;
+}
+
+
+.third-image-container{
+    width: 1110px;
+    height: 356.63px;
+ 
+    display: flex;
+    gap: 60px;
+}
+.image-three{
+    width: 432.5px;
+    height: 356.63px;
+   
+    background-image: url(https://www.torproject.org/static/images/home/svg/fingerprinting.svg?h=11fc8c97);
+    background-size: cover;
+}
+
+.sentance-three h4{
+    color: #59316B;
+}
+.sentance-three p{
+    line-height: 40px;
+    font-size: 20px;
+   
+   
+}
+.fourth-image-conatiner{
+    width: 1110px;
+    height: 356.63px;
+  
+    display: flex;
+    gap: 60px;
+}
+.sentence-four{
+    width: 615.5px;
+    height: 248.8px;
+}
+.sentence-four p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.sentence-four h4{
+    color:#59316B
+}
+
+.image-four{
+width: 432.5px;
+height: 324.63px;
+background-image: url(https://www.torproject.org/static/images/home/svg/encryption.svg?h=4b28f3dd);
+background-size: cover;
+
+}
+.fifth-image-container{
+    width: 1110px;
+    height: 324.8px;
+   
+    display: flex;
+    gap: 60px;
+}
+.image-five{
+    width: 432.5px;
+    height: 324.63px;
+    background-image: url(https://www.torproject.org/static/images/home/svg/browse-freely.svg?h=23b7d7d3);
+    background-size: cover;
+  
+
+
+}
+.sentance-five p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.sentance-five h4{
+    color: #59316B;
+}
+.about-section{
+   width: 1140px;
+   height: 560px;
+   
+}
+
+.about-iner h6{
+    font-size:medium;
+    color: #59316B;
+}
+.about-content{
+    width: 1110px;
+    height: 560px;
+}
+.about-section p{
+    line-height: 70px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484848  ;
+
+}
+.about-section a{
+    color: #59316B;
+}
+.third-div{
+    width: 100%;
+    /* height: 4095.86px; */
+    background-color:#59316B;
+    
+
+}
+.footer-one{
+    width: 1349px;
+    height: 280px;
+     /* background-color: #FFBF00;  */
+     display: flex;
+     gap: 200PX;
+}
+.image-div{
+    width: 250px;
+    height: 280px;
+   
+    background-image: url(https://www.torproject.org/static/images/circle-pattern.svg?h=9a4040e4);
+    background-size: cover;
+}
+.dowload-browser{
+    width: 564px;
+    height: 180.39px;
+    
+    margin-top: 66px;
+}
+.dowload-browser h2{
+    color: #f0e5e5;
+}
+.dowload-browser{
+    line-height: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.dowload-browser button{
+    color: #59316B;
+    margin-left: 50px;
+}
+.footer-two{
+    width: 1349px;
+    height: 304px;
+  
+    display: flex;
+    gap: 60px;
+}
+.iner-footer{
+    width: 659.5px;
+    height: 304px;
+  
+    margin: auto;
+}
+.iner-footer-two{
+    width: 219.83px;
+    height: 256px;
+  
+    margin-right: 100px;
+}
+.iner-footer H2{
+    color: #fff;
+}
+.iner-footer p{
+    line-height: 34px;
+    color: #f0e5e5;
+    font-size: 20PX;
+}
+.iner-footer-two a{
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.iner-footer-two button{
+   background-color: #FFBF00;
+    color: #000000;
+    width: 92.77px;
+    height: 31px;
+    border-radius: 10px;
+}
+.second-footer{
+    width: 1349px;
+    height: 206px;
+    
+    display: flex;
+    gap: 90px;
+    
+    
+}
+.para{
+    width: 659.5px;
+    height: 206px;
+   
+    margin: auto;
+}  
+.para-two{
+    width: 219.83px;
+    height: 158px;
+    display: grid;
+    grid-template-columns: repeat(3, 26px);
+    grid-template-rows: repeat(3,26px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-right: 50px;
+}
+
+.para h2{
+    color: #fff;
+}
+.para p{
+    color: #fff;
+}
+ .para button{
+    background-color: #3C2148;
+    border: none;
+    width: 81.56px;
+    height: 38px;
+ }
+ .para-two i{
+    color: #fff;
+ }
+ .last-footer{
+    width: 100%;
+    /* height: 96px; */
+    
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+    
+    
+
+ }
+ .last-footer{
+    color: #fff;
+
+ }
+ .last-footer select{
+    width: 119.55px;
+    height: 38px;
+    background-color: #59316B;
+    border: none;
+    color: #fff;
+     /* margin-right: 100px; */
+ }
+ .last-footer p{
+    font-size: 18px;
+     /* margin-left: 100px; */
+ }
+
